@@ -1,0 +1,18 @@
+<table>
+    <thead>
+      <tr>
+        <th>Defect ID</th>
+        <th>Defect Title</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let defect of newDefects">
+        <td>{{ defect.id }}</td>
+        <td>{{ defect.name }}</td>
+        <td><button (click)="viewDetails(defect.id)">View Details</button></td>
+      </tr>
+    </tbody>
+  </table>
+
+    

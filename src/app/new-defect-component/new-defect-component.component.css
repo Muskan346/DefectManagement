@@ -1,0 +1,38 @@
+.defect-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .defect-form h2 {
+    text-align: center;
+  }
+  
+  .defect-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .defect-form label {
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  
+  .defect-form input[type="text"],
+  .defect-form select {
+    width: 100%;
+    padding: 5px;
+  }
+  
+  .defect-form button {
+    background-color: blue;
+    color: #fff;
+    margin-top: 10px;
+    padding: 5px 10px;
+    
+  }
+  
+  .defect-form button:hover {
+    background-color: blue; /* Green */
+    color: white;
+  }
+  
